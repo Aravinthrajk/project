@@ -1,0 +1,22 @@
+body{
+    align-self: center;
+    background-color: aqua;
+}
+thead,tfoot{
+    background-color: aquamarine;
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+tbody{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+td{
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid red;
+}

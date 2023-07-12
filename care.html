@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissonform</title>
+    <link rel="stylesheet" href="Styles/care.css">
+</head>
+<body>
+    <div class="page">
+        <div class="grid-container">
+    <div class="sdhead">
+        <p class="stdhead">INTERNATIONAL</p>
+        <P class="stdhead1">STUDENT</P>
+        <P class="stdhead2">APPLICATION FORM</P>
+    </div>
+    <div class="head">
+    <p class="clgtitle">CARE COLLEGE</p>
+    <p class="vlg">THAYANOOR TRICHY  </p>
+    <br><br></div>
+</div>
+    <br>
+    <div class="grid-container1">
+    <div class="para">
+        <ul>
+            <li>Do not complete this form if you are a permanent resident or citizen of india or nepal unless you are a nepa resident or citizen applying to study a Enng course</li>
+    <li>please enclose a non refundable 1500 rupees application processing fee. Your application will not be processed without this fees.</li>
+        <li>All documents must be certified by recognised authority (i.e school, university, others)</li>
+        <li>Complete all sections of this form clearly using BLOCK letters and black and blue pen. </li>
+        <li>For more information visit. www.care.edu.com</li>
+        </ul>
+        <div class="box1">
+            <p class="bocpara">Application Fees</p>
+           <!-- <label for="tag">Tag</label><input type="text" id=" tag"placeholder="tag">
+            <label for="dt">Date</label><input type="date" id="dt">
+            <label for="">Interviewed by: <input type="text" name="inter" id="interview" placeholder="interviewer name"></label><br>
+            <label for="exdt">Expires</label><input type="date" name="exdate" id="exdt"> -->
+        </div>
+    </div>
+    <div class="para1">
+        <h3>APPLICATION DETAILS</h3>
+        <p>Are you applying through a CARE Institutions reg agent </p><input type="radio" id="yes" name="yesor" value="yes"><label for="yes">YES</label><input type="radio" id="no" name="yesor"><label for="no">NO</label>
+        <p>The contact details of agents found at anna university website</p>
+        <p>which country are submiting this application in</p>
+        <label for="country">Country Name:</label><input type="text" id="country" class="cname">
+        <p class="box">Stamp</p>
+    
+    
+    </div></div>
+    <div>
+    <h2>PERSONAL DETAILS - PRINT YOUR NAME IN BLOCK LETTERS AS IT APPEARS ON YOUR PASSPORT TO AVOID DELAYS IN YOUR APPLICATION</h2>
+    <label for="stdid">STUDENT ID :</label><input type="number" id="stdid" placeholder="Enter Your Id" name="stdid">(must be provided if you are a current or former student of CA)</input>
+    <br>
+    <label for="tit">Title:
+    <input type="radio" name="tit" id="mr"><label for="mr">MR</label> 
+    <input type="radio" name="tit" id="mss"> <label for="mss">MISS</label>  
+    <input type="radio" name="tit" id="mrs"> <label for="mrs">MRS</label> 
+    <input type="radio" name="tit" id="mis">  <label for="mis">MIS</label>
+    <input type="radio" name="tit" id="other">  <label for="other">OTHERS</label>  
+
+    <label for="gen">GENDER</label>
+    <input type="radio" name="gen" id="mgen"><label for="mgen">MALE</label>
+    <input type="radio" name="gen" id="fgen"><label for="fgen">FEMALE</label>
+    <input type="radio" name="gen" id="ogen"><label for="ogen">OTHERS</label>
+    <br>
+
+   <label for="name">NAME(AS STATED IN AADHAR):</label><input type="text" id="name" class="names" placeholder="enter your name"><br>
+   <label for="cname">Confirm NAME(AS STATED IN AADHAR):</label><input type="text" id="cname" class="cnames" placeholder="enter your name">
+<br>
+<label for="cob">CITY OF BIRTH</label><input type="text" id="cob" name="citybirth" placeholder="enter your birthcity">
+<label for="dob">DATE OF BIRTH</label><input type="date" id="dob" name="dobirth ">
+<br><br>
+
+<h2>2.STUDENT CONTACT DETAILS</h2>
+<label for="addr">ADDRESS TYPE :</label>
+<input type="checkbox" id="addr" name="perm">PERMANENT 
+<input type="checkbox" id="addr" name="tperm">TEMPORARY <br>
+<label for="str">NUMBER AND STREET</label><input type="text" id="str" name="stname" placeholder="enter your door number and street name">
+<br>
+<label for="city">CITY OR TOWN</label><input type="text" id="city" name="cityname" placeholder="enter your city">
+<label for="state">STATE</label><input type="text" id="state" name="states" placeholder="enter your state">
+<label for="phno">PHONE NUMBER</label> <input type="number" id="phno" placeholder="enter your phone number"><br>
+<label for="mail">EMAIL</label><input type="email" id="mail" name="email" placeholder="enter your email">
+<br>
+
+<h2>3.COURSE PREFERENCES</h2>
+
+<table>
+    <caption>List courses in order of preferences in the table below, including any preferred pathways.</caption>
+    <thead>
+        <tr>
+            <th>COURSE NAME</th>
+            <th>COURSE CODE</th>
+            <th>CAMPUS NAME</th>
+            <th>SEMESTER(1 OR 2)</th>
+            <th>CAMPUS NAME</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Eg:B.E Automobile Engineering</td>
+            <td>BE01</td>
+            <td>TRICHY</td>
+            <td>1</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="text" id="code"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+
+
+
+
+
+</table>
+<p id="output"></p>
+<button type="submit" id="regapplication">Submit the application</button>
+<script src="Scripts/care.js"></script>
+</div>
+</div>
+
+</body>
+</html>
