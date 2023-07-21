@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>candicate</title>
+    <style>
+      svg {
+        width: 300px;
+        display: block;
+        position: absolute;
+      }
+      .line1 {
+        stroke-dasharray: 340;
+        stroke-dashoffset: 40;
+        animation: dash 1.5s linear infinite;
+      }
+
+      .line2 {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 320;
+        animation: dash2 1.5s linear infinite;
+      }
+
+      @keyframes dash {
+        from {
+          stroke-dashoffset: 360;
+        }
+        to {
+          stroke-dashoffset: 40;
+        }
+      }
+
+      @keyframes dash2 {
+        from {
+          stroke-dashoffset: 280;
+        }
+        to {
+          stroke-dashoffset: -40;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="300px" height="175px" version="1.1">
+      <path
+        fill="transparent"
+        stroke="red"
+        stroke-width="4"
+        d="M 116 51 C 111.148 27.968 93.8144 12.968 65.5 10.5 C 42.5579 12.2899 26.3913 23.6232 17 44.5 C 8.42994 75.1428 18.2633 97.6428 46.5 112 C 76.8539 120.779 99.3539 111.279 114 83.5 C 115.958 78.6708 117.124 73.6708 117.5 68.5 C 117.194 65.6146 117.527 62.9479"
+        class="line1"
+      ></path>
+      <path
+        fill="transparent"
+        stroke="red"
+        stroke-width="4"
+        d="M 106.5 53 C 103.181 37.3933 92.5146 26.2266 74.5 22 C 51.3611 19.1465 35.1944 28.3131 26 49.5 C 19.9824 76.798 30.1491 94.9647 56.5 104 C 83.6574 107.322 100.657 95.8216 107.5 69.5"
+        class="line1"
+      ></path>
+      <path
+        fill="transparent"
+        stroke="red"
+        stroke-width="4"
+        d="M 96.5 55 C 90.5678 38.6962 78.9011 30.8628 61.5 31.5 C 50.5227 34.0867 42.356 40.4201 37 50.5 C 31.1418 68.9363 36.6418 82.7696 53.5 92 C 74.8124 97.6783 89.1457 90.1783 96.5 69.5"
+        class="line1"
+      ></path>
+    </svg>
+  </body>
+</html>
